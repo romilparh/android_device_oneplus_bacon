@@ -13,9 +13,8 @@ camera2.portability.force_api=1
 
 # Display
 ro.sf.lcd_density=480
-persist.hwc.mdpcomp.enable=false
+persist.hwc.mdpcomp.enable=true
 persist.sys.strictmode.disable=true
-persist.sys.ui.hw=true
 ro.opengles.version=196608
 
 # GPS
