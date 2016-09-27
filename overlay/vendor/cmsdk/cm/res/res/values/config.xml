@@ -28,4 +28,7 @@
     <!-- Is the notification LED brightness adjustable ? Used to decide if the user can set LED brightness -->
     <bool name="config_adjustableNotificationLedBrightness">true</bool>
 
+    <!-- Disable LiveDisplay by default -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
+
 </resources>
