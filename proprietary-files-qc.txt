@@ -39,7 +39,6 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/loc_launcher
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
-vendor/lib/hw/activity_recognition.msm8974.so
 vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libgeofence.so
@@ -85,8 +84,6 @@ vendor/lib/libSHIMDivxDrm.so
 
 # Perf
 bin/mpdecision
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqc-opt.so
 
 # Qualcomm framework
 bin/irsc_util
@@ -99,33 +96,29 @@ vendor/lib/libqdi.so
 vendor/lib/libqdp.so
 -vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_helper.so
 -vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 -vendor/lib/libqmiservices.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsystem_health_mon.so
 
 # Radio
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
 bin/radish
 bin/rfs_access
 bin/rmt_storage
-etc/data/dsi_config.xml
-etc/data/netmgr_config.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 framework/qcnvitems.jar
 framework/qcrilhook.jar
-framework/qti-telephony-common.jar
 -lib/libmdmdetect.so
 vendor/lib/libconfigdb.so
-vendor/lib/liblqe.so
 vendor/lib/libnetmgr.so
 vendor/lib/libperipheral_client.so
 vendor/lib/libril-qc-qmi-1.so
@@ -134,14 +127,13 @@ vendor/lib/libxml.so
 
 # Sensors
 bin/sensors.qcom
+vendor/lib/hw/activity_recognition.msm8974.so
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 
 # Thermal
-vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
-vendor/lib/libthermalioctl.so
 
 # Time services
 bin/time_daemon
