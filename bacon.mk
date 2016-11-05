@@ -215,6 +215,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/bacon
 
+# Widevine
+PRODUCT_PACKAGES += \
+    libshim_wvm
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
