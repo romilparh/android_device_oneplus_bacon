@@ -2,3 +2,5 @@
 allow mediaserver system_file:file execmod;
 
 binder_call(mediaserver, audiod)
+
+allow mediaserver camera_data_file:dir search;
