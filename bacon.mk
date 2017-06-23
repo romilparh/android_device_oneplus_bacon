@@ -211,6 +211,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
 
+# Weather providers
+PRODUCT_PACKAGES += \
+    OpenWeatherMapProvider \
+    YahooWeatherProvider \
+    WundergroundWeatherProvider
+
 # Widevine
 PRODUCT_PACKAGES += \
     libshim_wvm
