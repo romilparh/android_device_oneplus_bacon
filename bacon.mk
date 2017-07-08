@@ -219,6 +219,7 @@ PRODUCT_PACKAGES += \
 
 # Widevine
 PRODUCT_PACKAGES += \
+    libshim_adreno \
     libshim_wvm
 
 # WiFi

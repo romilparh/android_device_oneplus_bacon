@@ -146,6 +146,9 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Linker
+LINKER_FORCED_SHIM_LIBS := /system/vendor/lib/libgsl.so|libshim_adreno.so
+
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
