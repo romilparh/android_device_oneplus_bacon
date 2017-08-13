@@ -34,7 +34,7 @@ drm.service.enabled=true
 persist.audio.fluence.voicecall=true
 ro.qc.sdk.audio.fluencetype=fluence
 
-audio.offload.buffer.size.kb=32
+audio.offload.buffer.size.kb=1024
 audio.offload.video=true
 audio.offload.multiple.enabled=false
 audio.offload.gapless.enabled=true
