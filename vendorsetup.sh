@@ -1,0 +1,2 @@
+add_lunch_combo citrus_bacon-userdebug
+add_lunch_combo citrus_bacon-eng
