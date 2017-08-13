@@ -198,3 +198,6 @@ WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/oneplus/bacon/BoardConfigVendor.mk
+
+# Use CyanogenMod Ramdisk
+TARGET_USE_CM_RAMDISK := true
